@@ -8,6 +8,8 @@
 
 // 2. Vendors
 @import
+  'vendors/font',
+  'vendors/grid',
   'vendors/normalize';
 
 // 3. Base stuff
@@ -19,12 +21,15 @@
 
 // 4. Layout-related sections
 @import
+  'layout/features',
   'layout/header',
-  'layout/footer';
+  'layout/footer',
+  'layout/hero';
 
 // 5. Components
 @import
-  'components/button';
+  'components/button',
+  'components/image';
 
 // 6. Page-specific styles
 @import
@@ -35,5 +40,5 @@
   'themes/default';
 
   body {
-    background-color: red;
+    background-color: red
   }
